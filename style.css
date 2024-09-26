@@ -239,7 +239,7 @@ video{
 
 #cards-container{
     /* background-color: red; */
-    margin-top: 20px;
+    margin-top: 150px;
     display: flex;
     height: 80vh;
     align-items: center;
@@ -258,6 +258,7 @@ video{
     background-position: center;
     overflow: hidden;
     transition: all ease 0.5s;
+    z-index: 11;
 
 }
 
@@ -305,6 +306,7 @@ video{
   #green-div{
     height: 30vh;
     display: flex;
+    margin-top: 120px;
     align-items: center;
     justify-content: space-between;
     background:radial-gradient(circle at 10% 20%, rgb(50, 172, 109) 0%, rgb(209, 251, 155) 100.2%);
@@ -466,28 +468,28 @@ video{
     /* background-color: red; */
   }
   #f2 h3 {
-    font-size: 1.9vw;
+    font-size: 1.3vw;
     white-space: nowrap;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     color: black;
-    font-weight: 900;
+    font-weight: 700;
     margin-bottom: 8px;
-    line-height: 70px;
+    line-height: 40px;
   }
   
   #f3 h3 {
-    font-size: 1.9vw;
+    font-size: 1.3vw;
     white-space: nowrap;
-    text-transform: uppercase;
+    /* text-transform: uppercase */
     color:black;
-    font-weight: 900;
+    font-weight: 700;
     margin-bottom: 8px;
-    line-height: 70px;
+    line-height: 40px;
   }
   #f4 h4 {
     font-size: 1vw;
     white-space: nowrap;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     color:black;
     font-weight: 600;
     line-height: 30px;
