@@ -72,7 +72,7 @@ gsap.from("#about-us img,#about-us-in", {
   });
 
   
-gsap.set(".card", { scale: 0.8, opacity: 0 }); // Set initial state for all cards
+gsap.set(".card", { scale: 0.8, opacity: 0 }); // Set initial state for all cards!!!
 
 gsap.to(".card", {
   scale: 1,
